@@ -18,8 +18,8 @@ class Feed {
             if (!($feed instanceof Feed))
                 throw new Exception();
 
-            $content = "
-                <?xml version=\"1.0\" encoding=\"UTF-8\"?>
+            $content = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
+                <feed xml:lang=\"en-US\" xmlns=\"http://www.w3.org/2005/Atom\">
                 <title type=\"text\">{$feed->title}</title>
                 <subtitle type=\"text\">{$feed->description}</subtitle>
                 
