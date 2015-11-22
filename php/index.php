@@ -5,6 +5,6 @@
         <title></title>
     </head>
     <body>
-        Proudly powered by <a href=''>feedlr</a>. So far it tends to do a good job.
+        Proudly powered by <a href='https://github.com/ahughes117/feedlr'>feedlr</a>. So far it tends to do a good job.
     </body>
 </html>
